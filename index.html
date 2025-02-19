@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li class="dropdown">
+                <a href="#">Products ▾</a>
+                <ul class="dropdown-menu">
+                    <li><a href="#bis">Biscuits</a></li>
+                    <li><a href="#sham">Shampoo</a></li>
+                    <li><a href="#wash">Washing Powder</a></li>
+                    <li><a href="#oil">Oil</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+
+    <!-- Add new Product Form -->
+
+    <div class="container">
+        <div class="product-form">
+            <h2>Add New Product</h2>
+            <form>
+                <input type="text" placeholder="Product Name" required>
+                <input type="number" placeholder="Product Price" required>
+                <input type="number" placeholder="Product Quantity" required>
+                <button type="submit">Add Product</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Product List -->
+    <h2>All Products</h2>
+    <h3 id="bis">Biscuits</h3>
+    <div class="product-list">
+        <!-- Product Cards -->
+         
+        <div class="product-card">
+            <img src="unibic.jpg" alt="unibic">
+            <h3>Unibic</h3>
+            <p>Price: ₹10</p>
+            <p>Quantity: 20</p>
+        </div>
+        <div class="product-card">
+            <img src="britannia.jpg" alt="brita">
+            <h3>Britannia</h3>
+            <p>Price: ₹5</p>
+            <p>Quantity: 8</p>
+        </div>
+        <div class="product-card">
+            <img src="parle.jpg" alt="parle">
+            <h3>Parle</h3>
+            <p>Price: ₹15</p>
+            <p>Quantity: 40</p>
+        </div>
+        <div class="product-card">
+            <img src="mcvitie's.jpg" alt="mcvitie">
+            <h3>McVitie's</h3>
+            <p>Price: ₹15</p>
+            <p>Quantity: 56</p>
+        </div>
+        <div class="product-card">
+            <img src="sunfeast.jpg" alt="sun">
+            <h3>Sunfeast</h3>
+            <p>Price: ₹15</p>
+            <p>Quantity: 33</p>
+        </div>
+    </div>
+    <br>
+
+    <h3 id="sham">Shampoo</h3>
+    <div class="product-list">
+         
+        <div class="product-card">
+            <img src="head.jpg" alt="Head">
+            <h3>Head & Shoulder</h3>
+            <p>Price: ₹110</p>
+            <p>Quantity: 20</p>
+        </div>
+        <div class="product-card">
+            <img src="dove.jpg" alt="dove">
+            <h3>Dove</h3>
+            <p>Price: ₹150</p>
+            <p>Quantity: 40</p>
+        </div>
+        <div class="product-card">
+            <img src="pant.jpg" alt="Pantene">
+            <h3>Pantene</h3>
+            <p>Price: ₹140</p>
+            <p>Quantity: 30</p>
+        </div>
+        <div class="product-card">
+            <img src="Hima.jpg" alt="hima">
+            <h3>Himalaya</h3>
+            <p>Price: ₹190</p>
+            <p>Quantity: 22</p>
+        </div>
+    </div>
+    <br>
+
+    <h3 id="wash">Washing Powder</h3>
+    <div class="product-list">
+         
+        <div class="product-card">
+            <img src="Ariel.jpg" alt="ariel">
+            <h3>Ariel</h3>
+            <p>Price: ₹78</p>
+            <p>Quantity: 44</p>
+        </div>
+        <div class="product-card">
+            <img src="Rin.jpg" alt="rin">
+            <h3>Rin</h3>
+            <p>Price: ₹60</p>
+            <p>Quantity: 29</p>
+        </div>
+        <div class="product-card">
+            <img src="Surf.jpg" alt="surf">
+            <h3>Surf Excel</h3>
+            <p>Price: ₹67</p>
+            <p>Quantity: 42</p>
+        </div>
+        <div class="product-card">
+            <img src="Tide.jpg" alt="tide">
+            <h3>Tide</h3>
+            <p>Price: ₹77</p>
+            <p>Quantity: 75</p>
+        </div>
+    </div>
+    <br>
+
+    <h3 id="oil">Oil</h3>
+    <div class="product-list">
+         
+        <div class="product-card">
+            <img src="goldwinner.jpg" alt="ariel">
+            <h3>Goldwinner</h3>
+            <p>Price: ₹125</p>
+            <p>Quantity: 34</p>
+        </div>
+        <div class="product-card">
+            <img src="idhayam.jpg" alt="rin">
+            <h3>Idhayam</h3>
+            <p>Price: ₹150</p>
+            <p>Quantity: 29</p>
+        </div>
+        <div class="product-card">
+            <img src="mrgold.jpg" alt="surf">
+            <h3>Mr.Gold</h3>
+            <p>Price: ₹124</p>
+            <p>Quantity: 12</p>
+        </div>
+        <div class="product-card">
+            <img src="sunland.jpg" alt="tide">
+            <h3>Sunland</h3>
+            <p>Price: ₹135</p>
+            <p>Quantity: 19</p>
+        </div>
+        <div class="product-card">
+            <img src="fortune.jpg" alt="tide">
+            <h3>Fortune</h3>
+            <p>Price: ₹147</p>
+            <p>Quantity: 45</p>
+        </div>
+    </div>
+
+</body>
+</html>
